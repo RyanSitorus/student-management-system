@@ -5,7 +5,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.example.sms.entity.Student;
 import com.example.sms.repository.StudentRepository;
 
 @SpringBootApplication
@@ -21,8 +20,7 @@ public class StudentManagementSystemApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 
-//		Student student1 = new Student("Andrian", "Sitorus", "andriansitorus@gmail.com");
-//		studentRepository.save(student1);
+//		Student student1 = new Student(
 	}
 
 }
